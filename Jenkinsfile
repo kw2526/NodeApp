@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("kw2526/nodeapp")
+        app = docker.build("kw2525/nodeapp")
     }
 
     stage('Test image') {
